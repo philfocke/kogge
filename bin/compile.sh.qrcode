@@ -1,0 +1,10 @@
+#!/bin/bash
+
+rm -rf out
+rm -f out.jar
+rm -f ./*.png
+
+JAVA_FILES=$(find . -name "*.java")
+javac -cp libs/core-3.5.0.jar:libs/javase-3.5.0.jar -d out $JAVA_FILES
+# javac -cp libs/ -d out $JAVA_FILES
+jar cfe out.jar hbv.qrcode.Main -C out .

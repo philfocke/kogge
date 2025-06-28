@@ -1,0 +1,10 @@
+user=darkerckhoff
+webapp=docker-darkerckhoff-java
+manager=docker-darkerckhoff-manager
+dbserver=mysql-server
+dbuser=darkerckhoff
+dbname=darkerckhoff_db
+dbpassword=lXNAqaBFZe8U1WOtVCqk
+redisserver=localhost
+redispassword=lXNAqaBFZe8U1WOtVCqk
+baseurl=https://informatik.hs-bremerhaven.de

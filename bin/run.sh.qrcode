@@ -1,0 +1,5 @@
+#!/bin/bash
+
+LIBS=$(find libs -name "*.jar" | tr '\n' ':')
+
+java -cp "out.jar:$LIBS" hbv.qrcode.Main $1
